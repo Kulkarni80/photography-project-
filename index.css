@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+:root{
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+*{
+    font-family: 'Nunito',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transform: all .2s linear;
+background-color: var(--light-color);
+}
+html{
+    
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+
+}
+
+header {
+    
+    /* padding: 1rm 7%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    /* height: 100vh; */
+    /* margin: 2rem; */
+    background-color: var(--light-color);
+    
+}
+.content{
+    height: 10vh;
+    width: 100vh;
+    text-align: center;
+    /* padding: 1rem; */
+    margin: 4rem;
+ }
+ .acmc{
+    font-size: 50px;
+    background: var(--green);
+    border-radius: 10px;
+ }
+ .sub-acmc{
+    font-size: 1.5rem;
+    /* background: var(--light-color); */
+    border-radius: 10px;
+ }
+ .btn{
+    font-size: 20px;
+    color: #fff;
+    background: var(--black);
+    border-radius: .5rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+ }
+ .btn:hover{
+    background: #eee;
+    color: black;
+ }
+.img{
+    height: 100vh;
+    width: 100vh;
+}
+
+section{
+    margin: 0;
+    /* padding: auto; */
+    /* color: #eee; */
+}
+.work{
+    background: #eee;
+    text-align: center;
+    font-size: 30px;
+}
+.img1{
+    width: 100%;
+}
+.one{
+    font-size: 20px;
+    font-weight:700;
+    /* color: rgb(255, 0, 221); */
+    text-align: center;
+}
+.text{
+    text-align: center;
+}
+
+.section{
+    border: #192a56 solid;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    margin-top: 2rem;
+    background: #eee;
+}
+.get{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    background: #eee;
+}
+.email{
+    text-align: center;
+    background: #eee
+}
+.phone{
+    text-align: center;
+    background: #eee
+}
